@@ -12,4 +12,7 @@ app.get('/joshua', (req,res) => {res.send("Hello Joshua")});
 
 app.get('/jj', (req,res) => {res.send("Hello JJ")});
 
+app.get('/austin', (req,res) => {res.send("Hello Austin")});
+
 app.listen(port, ()=>console.log("Listening"));
+
